@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+body {
+    background: linear-gradient(#05FBFF, #4280fc ) fixed;
+    
+  }
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin: 0 auto;   
+}
+
+h1.Name{
+    
+    margin: 0 0 100px 0 ;   
+}
+
+p{
+    display: inline-block;
+    text-align: left;
+}
+
+.img_block img{
+    
+    display: block;
+    width: 130px;
+    height: 130px;
+    margin:auto;
+    
+}
+    
+div.main {
+    margin : 20px 10px; ;
+    padding : 100px 20px 20px 20px;
+    border-radius: 20px;
+    background-color : white ;
+    
+}
+
+div.works{
+  padding:20px;
+  text-align:center;
+  margin:0 auto;
+}
+
+div.tab_main_inner{
+    margin: 0 auto 0 auto;
+	max-width: 860px;
+}
+
+div.profile{
+    background-color : rgb(252, 248, 237) ;
+    font-family: 'tbchibirgothicplusk-pro', sans-serif;
+    padding: 40px 0;
+}
+
+div.mail{
+    text-align: center;
+}
+
+
+

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自己PRサイト</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <script>
+        (function (d) {
+            var config = {
+                kitId: 'mra1vtx',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="img_block">
+            <img src="images/icon.png" alt="アイコン" />
+        </div>
+        <h1 class="Name">Takuma Aoyama</h1>
+        <div class="profile">
+            <h1 class="career">Profile</h1>
+            <div class="tab_main_inner">
+
+                <p>青山拓真（アオヤマタクマ）と申します。</p>
+
+                <p>1998年4月生まれ。神奈川県横須賀市出身、現在も横須賀市在住。</p>
+                <p> インターネット文化が好きな、ITプログラムを勉強中の23歳です。</p>
+                <p>その他にも趣味でモーショングラフィックス/3DCGによる映像制作/トラックメイカーなどをしています。</p>
+
+                <h1 class="career">Career</h1>
+                <p> ・神奈川県立逗子高等学校に入学しこの時期にパソコンの使用を始める</p>
+                <p> ・日本工学院専門学校で主にUnityを使用したゲーム制作を学ぶ</p><br>
+                <p> ・フォース株式会社に入社</p>
+
+            </div>
+            <h1 class="career">Works</h1>
+            <div class="works">
+                <a href="https://youtu.be/53USYXzrFL0">
+                    <p class="p1"><img src="images/works1.png" alt="BUBBHAN!" width="384" height="216"></p>
+                </a>
+                <a href="https://youtu.be/0PeexVJgYsk">
+                    <p class="p1"><img src="images/works2.png" alt="BUBBHAN!" width="384" height="216"></p>
+                </a>
+
+            </div>
+            <h1 class="career">Contact</h1>
+            <div class="mail">
+                <a href="takuma.aoyama@force-corp.co.jp">takuma.aoyama@force-corp.co.jp</a>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        'use strict';
+
+        const div = document.querySelector('div')
+
+        div.animate([{ opacity: '0' }, { opacity: '1' }], 2000)
+
+    </script>
+
+</body>
+<footer>
+</footer>
+
+</html>
